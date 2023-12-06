@@ -17,7 +17,7 @@ import CardsList from './components/cardsList.vue';
 
 export default {
   mounted() {
-  fetch('https://node-server-j500.onrender.com/api')
+  fetch('https://nodejs-server-dpp3.onrender.com/api')
         .then(response => response.json())
         .then(data => {
           this.companiesdata = data;
