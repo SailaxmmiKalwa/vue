@@ -17,10 +17,11 @@ import CardsList from './components/cardsList.vue';
 
 export default {
   mounted() {
-  fetch('https://nodejs-server-dpp3.onrender.com/api')
+  fetch('https://node-server-z7u0.onrender.com/api')
         .then(response => response.json())
         .then(data => {
           this.companiesdata = data;
+          console.log(data);
         })
         .catch(error => console.error('Error fetching JSON data:', error));
   },
