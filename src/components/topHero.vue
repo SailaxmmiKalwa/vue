@@ -1,11 +1,11 @@
 <template>
     <div class="container">
-        <h1>Top 5 Companies by their revenues</h1>
+        <h1>Top 5 Companies by their Revenues</h1>
     </div>
 </template>
 <style scoped>
 .container{
-    height: 200px;
+    height: 50px;
     width: auto;
     background-size: cover;
     background-position: center;
