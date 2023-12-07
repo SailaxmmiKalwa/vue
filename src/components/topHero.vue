@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Top 5 Companies by their Revenues</h1>
+        <h1>Top 5 Companies by Revenue</h1>
     </div>
 </template>
 <style scoped>
